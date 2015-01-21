@@ -1,0 +1,44 @@
+// ----------------------------------------------------------------------------
+// Sass declarations
+// ----------------------------------------------------------------------------
+$background-color: #bb82a8;
+$value-color:       #fff;
+$title-color:       rgba(255, 255, 255, 0.7);
+// ----------------------------------------------------------------------------
+// Widget-headlines styles
+// ----------------------------------------------------------------------------
+.widget-headlines {
+  background-color: $background-color;
+  vertical-align: baseline !important;
+
+  .headline-container {
+    display: none;
+  }
+
+  .heading span {
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .heading img {
+    margin-top: -5px;
+  }
+
+  .title {
+    font-size: 1.0em;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.7);
+  }
+
+  .description {
+    font-size: 1.0em;
+    color: black;
+  }
+
+  .heading{
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+  ;
+  }
+}

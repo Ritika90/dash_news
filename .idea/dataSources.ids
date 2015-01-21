@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails dashing_app: development" uuid="6c85242b-2365-498c-9f06-a3e617db1e55">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails dashing_app: test" uuid="c178ce9f-fa3a-4028-b2ed-ca7fcdb84555">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails dashing_app: production" uuid="1b21aea2-4c4b-41e9-a312-4b08dd8eddef">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>

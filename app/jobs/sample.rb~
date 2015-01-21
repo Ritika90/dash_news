@@ -1,0 +1,24 @@
+ last_valuation = 0
+ current_valuation = []
+ @count = 0
+
+  @products = Product.all
+  @products.each do |product|
+    current_valuation << product.name
+  end
+
+ puts "#{current_valuation}"
+
+ Dashing.scheduler.every '6s' do
+
+   last_valuation = current_valuation[@count]
+
+  # puts "curr: #{current_valuation[@count]}"
+   #puts "last: #{last_valuation}"
+  # puts "=========================================="
+   Dashing.send_event('valuation', { current: current_valuation[@count], last: last_valuation })
+   @count = @count+1
+    @count = (@count == current_valuation.size-1) ? 0 : (@count +1)
+   # Dashing.send_event('synergy',   { value: rand(100) })
+ end
+

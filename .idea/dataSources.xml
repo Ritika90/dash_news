@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="2719095604">
+    <data-source source="LOCAL" name="Rails dashing_app: development" uuid="6c85242b-2365-498c-9f06-a3e617db1e55">
+      <driver-ref>sqlite.xerial</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:dsh_db</jdbc-url>
+      <user-name>ritika</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails dashing_app: test" uuid="c178ce9f-fa3a-4028-b2ed-ca7fcdb84555">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:dsh_db</jdbc-url>
+      <user-name>ritika</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails dashing_app: production" uuid="1b21aea2-4c4b-41e9-a312-4b08dd8eddef">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:dsh_db</jdbc-url>
+      <user-name>ritika</user-name>
+      <user-password>dfd8dfc5dfc5dfde</user-password>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+
